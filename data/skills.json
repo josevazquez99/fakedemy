@@ -1,14 +1,57 @@
 [
     {
-       "src": "./img/user.png",
-       "title": "Ejemplo1 Curso",
-       "desc": "Descripcion1 Curso",
-       "cat": "Jose"
+       "src": "./img/strategy.png",
+       "title": "Strategic thinking",
+       "desc": "Ability to analyze the market and the competition to make the right decisions.",
+       "cat": "Business"
     },
     {
-        "src": "./img/user.png",
-        "title": "Ejemplo2 Curso",
-        "desc": "Descripcion2 Curso",
-        "cat": "Joselito"
-     }
+        "src": "./img/decision.png",
+        "title": "Decision Making",
+        "desc": "Evaluate risks and opportunities to choose the best path.",
+        "cat": "Business"
+     },
+     {
+      "src": "./img/team.png",
+      "title": "Team Management",
+      "desc": "Evaluate risks and opportunities to choose the best path.",
+      "cat": "Leadership"
+      },    
+      {
+      "src": "./img/negotiation.png",
+      "title": "Negotiation Skills",
+      "desc": "Achieve beneficial agreements with suppliers, customers and partners.",
+      "cat": "Leadership"
+      },
+      {
+         "src": "./img/cost.png",
+         "title": "Cost Reduction",
+         "desc": "Identify ways to optimize resources.",
+         "cat": "Financial"
+      },
+      {
+         "src": "./img/smart.png",
+         "title": "Smart Investment",
+         "desc": "Know when and where to invest to grow the business.",
+         "cat": "Financial"
+      },
+      {
+         "src": "./img/word.png",
+         "title": "Word Processing",
+         "desc": "Generating and editing documents such as reports and brochures.",
+         "cat": "Computer"
+      },
+      {
+         "src": "./img/pp.png",
+         "title": "Preparing PowerPoint",
+         "desc": "Creating and designing presentations.",
+         "cat": "Computer"
+      },    
+      {
+         "src": "./img/ss.png",
+         "title": "Developing spreadsheets",
+         "desc": "Entering and tracking data, organising data by sorting and filtering",
+         "cat": "Computer"
+      }
+      
 ]

@@ -1,14 +1,51 @@
 [
     {
-       "src": "./img/user.png",
-       "title": "Ejemplo Curso",
-       "desc": "Descripcion Curso",
-       "cat": "Categoria"
+       "src": "./img/office-suite.png",
+       "title": "Office Suite Skills",
+       "desc": "Proficiency in office software including word processors, spreadsheets, and database programs.",
+       "cat": "Productivity"
     },
     {
-        "src": "./img/user.png",
-        "title": "Ejemplo2 Curso",
-        "desc": "Descripcion2 Curso",
-        "cat": "Categoria2"
-     }
+        "src": "./img/office-package.png",
+        "title": "Office Package",
+        "desc": "Comprehensive office software package for productivity and business operations.",
+        "cat": "Productivity"
+     },
+     {
+      "src": "./img/website-hosting.png",
+      "title": "Website Hosting",
+      "desc": "Reliable and secure website hosting solutions with high uptime and support.",
+      "cat": "Web"
+     }, 
+     {
+      "src": "./img/cloud.png",
+      "title": "Cloud Computing",
+      "desc": "Scalable and flexible cloud computing solutions for businesses.",
+      "cat": "Cloud"
+      },    
+      {
+      "src": "./img/cibersecurity.png",
+      "title": "Cybersecurity Solutions",
+      "desc": "Comprehensive cybersecurity services including threat detection and data encryption.",
+      "cat": "Security"
+      }, 
+      {
+         "src": "./img/email.png",
+         "title": "Email Hosting",
+         "desc": "Secure and professional email hosting solutions with custom domains.",
+         "cat": "Web"
+      },
+      {
+         "src": "./img/chart.png",
+         "title": "Data Visualization & Charts",
+         "desc": "Learn how to create effective data visualizations, charts, and graphs for business and analytics.",
+         "cat": "Data"
+      },
+      {
+         "src": "./img/smartphone.png",
+         "title": "Smartphone App Development",
+         "desc": "Develop mobile applications for iOS and Android using modern frameworks and tools.",
+         "cat": "Mobile"
+      }
+
 ]
