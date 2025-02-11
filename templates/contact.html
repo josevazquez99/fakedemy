@@ -1,14 +1,78 @@
-<h1>Contact Page</h1>
-<div>
-    <form action="contacto.php" method="POST" class="flex flex-column justify-content-center my-3 gap-1">
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="email" name="correo" placeholder="Correo electrónico">
-        <input type="text" name="asunto" placeholder="Asunto">
-        <textarea name="mensaje" placeholder="Mensaje"></textarea>
-        <input type="submit" value="Enviar">
-      </form>
-    <div class="cardContainer" style = "margin: 0 auto;">
-      <p>Dirección...</p>
-      <p>Teléfono...</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #222;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #6a11cb;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #2575fc;
+        }
+        .contact-info {
+            margin: 20px auto;
+            text-align: center;
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info p {
+            margin: 10px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Page</h1>
+    <form action="contacto.php" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="correo" placeholder="Correo electrónico" required>
+        <input type="text" name="asunto" placeholder="Asunto" required>
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="contact-info">
+        <p><strong>Dirección:</strong> Calle Ejemplo, 123, Ciudad, País</p>
+        <p><strong>Teléfono:</strong> +34 123 456 789</p>
+        <p><strong>Correo:</strong> contacto@empresa.com</p>
     </div>
-</div>
+</body>
+</html>
